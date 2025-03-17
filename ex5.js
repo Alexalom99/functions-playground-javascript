@@ -13,3 +13,6 @@ function rollDice() {
  */
 
 // Tu código a partir de aquí
+
+let suma = rollDice() + rollDice();
+console.log(suma);

@@ -4,7 +4,14 @@
 
 function maxNumber(a, b) {
     // COMPLETAR
-    return;
+    let result;
+    if (a > b) {
+        result = a;
+    }
+    else {
+        result = b;
+    }
+    return result;
 }
 
 console.log(maxNumber(10, 20)); // 20
